@@ -27,6 +27,6 @@ def complex(x1,x2,*args,**kwargs):
   print(x2)
   print(args[0])
   print(kwargs["first"])
-  print(kwards["second"])
+  print(kwargs["second"])
 
 complex(1,2,3,first=4,second=5)
